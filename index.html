@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "jj-purple": "#5267DF",
+              "jj-red": "#FA5959",
+              "jj-blue": "#242A45",
+              "jj-grey": "#9194A2",
+              "jj-white": "#f7f7f7",
+            },
+            fontFamily: {
+           rasa: ["Rasa,sans-serif"],
+           poppins:["Poppins,sans-serif"]
+          },
+          container:{
+            cente:true,
+            padding: "1rem",
+            screens:{
+              lg:"1024",
+              xl:"1024",
+              "2xl":"1024"
+            },
+          },
+          },
+        },
+      };
+    </script>
+    <title>BookMark</title>
+    <link
+      rel="shortcut icon"
+      href="https://png.pngtree.com/png-vector/20221209/ourmid/pngtree-bookmark-favorite-icon-use-for-web-app-ui-png-image_6518169.png"
+      type="image/x-icon"
+    />
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+  <body >
+<header >
+<nav class="container flex items-center py-10 ml-4 mt-2 sm:mt-6  ">
+  <div>
+  <img src="./picture/logo-bookmark.svg" alt="Book Mark">
+  </div>
+  <ul class="hidden sm:flex flex-1 justify-center items-center gap-20  ">
+    <li>Features</li>
+    <li>Pricing</li>
+    <li>Contact</li>
+    <button class="bg-orange-500 rounded-md text-white p-2 pl-3 pr-3 uppercase">Login</button>
+  </ul>
+  <div class="flex sm:hidden flex-1 justify-end">
+    <i class="fa fa-bars fa-2xl" aria-hidden="true"></i>
+
+  </div>
+</nav>
+    </header>
+    <section class="relative">
+      <div class="container  flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+        <div class="flex flex-1 flex-col items-center lg:items-start lg:justify-start ">
+          <h1 class="sm:text-4xl translate-x-96 lg:text-4xl md:lg:text-4xl lg:text-left text-center items-center text-jj-purple">  A Simple Bookmark Manager</h1>
+          <p class="text-jj-grey items-center text-center lg:text-lg sm:text-2xl py-5">  Bookmarks Extension for Google is a minimal, clean Chrome Extension
+            for Google Bookmarks. Open a new browser tab and see your sites load
+            instantly. Try it for free.</p> 
+ 
+        <div class=" translate-x-96  flex justify-center   items-center flex-wrap gap-20 ">
+          <button class="bg-orange-500 rounded-md text-white p-2 pl-3 pr-3 uppercase" > Get it on Chrome</button>
+          <button class="bg-orange-500 rounded-md text-white p-2 pl-3 pr-3 uppercase">  Get it on Firefox</button>
+        </div>
+      </div>
+      
+      </div>
+      <div class="flex flex-1 translate-x-64 mb-8 md:m-14 lg:m-0 z-10 p-10 ">
+        <img class="w-1/2 h-1/2/6 sm:h-3/4 md:h-full" src="./picture/hero-bg.png" alt="box">
+      </div>
+     
+    </section>
+<section>
+  <div class="container">
+    <div class="">
+      <h1 class="text-center text-4xl text-jj-purple font-rasa">Features</h1>
+      <p class="text-center py-4 text-jj-grey">  Our aim is to make it quick and easy for you to access your favourite
+        websites. Your bookmarks sync between your devices so you can access
+        them on the go. </p>
+       
+    </div>
+  </div>
+</section>
+<div>
+  <div class="container py-28   ">
+    <!-- image -->
+    <div class="flex items-center justify-center pb-12">
+      <img src="./picture/illustration-features-tab-1.png" alt="features">
+    </div>
+    <div>
+      <h1 class="text-4xl text-jj-purple items-center text-center py-10 pb-8 font-rasa">Bookmark in one click</h1>
+      <p class="text-center py-4 text-jj-grey pb-8">   Organize your bookmarks however you like. Our simple drag-and-drop
+        interface gives you complete control over how you manage your
+        favourite sites.</p>
+        <div class="flex justify-center items-center">
+          <button class=  " bg-orange-500 rounded-md text-white p-2 pl-3 pr-3 uppercase">More Info</button>
+        </div>
+    </div>
+  </div>
+ 
+  <div class="flex items-center justify-center pb-12">
+    <img src="./picture/illustration-features-tab-2.png" alt="features">
+  </div>
+  <div>
+    <h1 class="text-4xl text-jj-purple items-center text-center py-10 pb-8 font-rasa">Intelligent search</h1>
+    <p class="text-center py-4 text-jj-grey pb-8">  Our powerful search feature will help you find saved sites in no
+      time at all. No need to crawl through all of your bookmarks.</p>
+      <div class="flex justify-center items-center">
+        <button class=  " bg-orange-500 rounded-md text-white p-2 pl-3 pr-3 uppercase">More Info</button>
+      </div>
+  </div>
+  <div class="flex items-center justify-center pb-12">
+    <img class="py-10" src="./picture/illustration-features-tab-3.png" alt="features">
+  </div>
+  <div>
+    <h1 class="text-4xl text-jj-purple items-center text-center py-10 pb-8 font-rasa">Share your bookmarks</h1>
+    <p class="text-center py-4 text-jj-grey pb-8">    Easily share your bookmarks and collections with others. Create a
+      shareable link that you can send at the click of a button.
+    </p>
+      <div class="flex justify-center items-center">
+        <button class=  " bg-orange-500 rounded-md text-white p-2 pl-3 pr-3 uppercase">More Info</button>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+<section>
+  <div class="container  py-20">
+    <div class="flex-row">
+      <h1 class="text-4xl text-jj-purple font-rasa text-center">  Download the Extension</h1>
+      <p class="text-center py-4 text-jj-grey pb-8">  We've got more browsers in the pipeline.Please do let us know if
+        you've got a favourite you'd like us to prioritize.</p>
+    </div>
+  </div>
+  <div class="container flex justify-around">
+    <div>
+      <div>
+        <img class="py-1" src="./picture/logo-chrome.svg" alt="">
+        <h1 class="font-rasa text-2xl text-jj-purple py-1">Add to Chrome</h1>
+        <p class="  text-jj-grey">Minimum Version 32</p>
+      </div>
+      <div class="py-1">
+        <button class=" bg-jj-red rounded-lg py-3 px-2 text-white  uppercase"> Add & Install the Extension</button>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <div>
+        <img class="py-1" src="./picture/logo-firefox.svg" alt="">
+        <h1 class="font-rasa text-2xl text-jj-purple py-1">Add to firefox</h1>
+        <p class="  text-jj-grey">Minimum Version 28</p>
+      </div>
+      <div>
+        <button class="bg-jj-red rounded-lg py-3 px-2 text-white  uppercase"> Add & Install the Extension</button>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <div>
+        <img class="py-1 " src="./picture/logo-opera.svg" alt="opera">
+        <h1 class="font-rasa text-2xl text-jj-purple py-1">Add to opera</h1>
+        <p class="  text-jj-grey ">Minimum Version 27</p>
+      </div>
+      <div>
+       <button class="bg-jj-red rounded-lg py-3 px-2 text-white  uppercase"> Add & Install the Extension</button>
+      </div>
+    </div>
+    
+  </div>
+</section>
+<section>
+  <div class="container flex flex-col py-28 translate-x-10">
+    <div>
+      <h1 class="font-rasa text-4xl text-jj-purple py-1">  Frequently Asked Questions</h1>
+      <p class=" text-jj-grey py-4"> Here are some of our FAQs. If you have any other questions you'd lik
+        answered please feel free to reach out us.</p>
+    </div>
+    <div class="flex items-center">
+      <span class="text-center text-3xl  font-rasa">What is a Bookmark?</span>
+      <i class="fas fa-chevron-down text-bookmark-purple fa-xl"></i>
+    </div>
+    <div class="flex items-center py-16">
+      <span class="text-center text-3xl  font-rasa">How Can I Request a new Browser?</span>
+      <i class="fas fa-chevron-down text-bookmark-purple fa-xl"></i>
+    </div>
+    <div class="flex items-center">
+      <span class="text-center text-3xl  font-rasa">Is there a Mobile-App ?</span>
+      <i class="fas fa-chevron-down text-bookmark-purple fa-xl"></i>
+    </div>
+    <div class="flex items-center py-16">
+      <span class="text-center text-3xl  font-rasa">What About Chromium Browsers?</span>
+      <i class="fas fa-chevron-down text-bookmark-purple fa-xl"></i>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container bg-amber-300">
+    <div>
+      <p class="text-xl text-center pt-8">50,000+ Users Already Joined</p>
+      <h1 class=" text-center text-4xl  font-rasa uppercase mt-16 ">Stay Up-To-Date with what We're Doing</h1>
+    </div>
+    <div class=" flex flex-1 items-center justify-center gap-6 mt-8">
+      <input type="text" placeholder="Enter User Email Id">
+      <button class="py-6">Contact Us</button>
+    </div>
+  </div>
+</section>
+<footer class="bg-gray-700 py-10">
+  <div class="container flex items-center justify-center ">
+    <div class="flex flex-1 flex-wrap items-center justify-center gap-16 ">
+      <img class="text-white" src="./picture/logo-bookmark-white.png" alt="bookmark">
+      <ul class="flex gap-10 text-white text-xl fond-rasa ">
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Contact</li>
+      </ul>
+      <div class="flex gap-16">
+        <li class="list-none cursor-pointer"><i class="fab fa-facebook-square text-white text-2xl"></i></li>
+        <li class="list-none cursor-pointer"><i class="fab fa-twitter text-white text-2xl"></i></li>
+        <li class="list-none cursor-pointer"><i class="fab fa-instagram text-white text-2xl"></i></li>
+        <li class="list-none cursor-pointer"><i class="fab fa-github text-white text-2xl"></i></li>
+        <li class="list-none cursor-pointer"><i class="fab fa-linkedin text-white text-2xl"></i></li>
+      </div>
+    </div>
+  </div>
+
+</footer>
+</body>
+</html>
+
+
+
+
+
